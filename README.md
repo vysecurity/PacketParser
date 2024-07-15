@@ -2,7 +2,7 @@
 
 <img alt="Image" src="https://static.wixstatic.com/media/a7a5b4_7202bbbf2eac46f0b6ee4ba1f0b5bc56~mv2.jpg/v1/fill/w_308,h_231,fp_0.50_0.50,q_90,enc_auto/a7a5b4_7202bbbf2eac46f0b6ee4ba1f0b5bc56~mv2.jpg">
 
-A cap/pcap packet parser to make life easier when performing stealth/passive reconnaissance.
+> A cap/pcap packet parser to make life easier when performing stealth/passive reconnaissance.
 
 To use PacketParser, follow these steps:
 
