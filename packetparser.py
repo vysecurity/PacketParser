@@ -24,21 +24,21 @@ def parse_cap(cap_file, output_ip_file, output_port_file, output_pair_file, sile
         with open(output_ip_file, 'w') as f:
             unique_ips = set(ip for ip, _ in dest_pairs)
             for ip in unique_ips:
-                f.write(f"{ip}\\n")
+                f.write(f"{ip}\n")
 
     # Write unique TCP ports to the output file
     if output_port_file:
         with open(output_port_file, 'w') as f:
             unique_ports = set(port for _, port in dest_pairs)
             for port in unique_ports:
-                f.write(f"{port}\\n")
+                f.write(f"{port}\n")
 
     # Write unique IP:port pairs to the output file
     if output_pair_file:
         with open(output_pair_file, 'w') as f:
             unique_pairs = set(dest_pairs)
             for dest_ip, dest_port in unique_pairs:
-                f.write(f"{dest_ip}:{dest_port}\\n")
+                f.write(f"{dest_ip}:{dest_port}\n")
 
     if not silent:
         return dest_pairs
