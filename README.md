@@ -1,2 +1,27 @@
 # PacketParser
 A cap/pcap packet parser to make life easier when performing stealth/passive reconnaissance.
+
+To use PacketParser, follow these steps:
+
+1. Clone the repository:
+    ```
+    git clone https://github.com/vysec/PacketParser.git
+    ```
+
+2. Navigate to the project directory:
+    ```
+    cd PacketParser
+    ```
+
+3. Install the required dependencies:
+    ```
+    pip install -r requirements.txt
+    ```
+
+4. Run the packet parser:
+    ```
+    python3 packetparser.py -i it-office.pcap -o unique.txt -oP unique-ports.txt -oI unique-ips.txt -s
+    ```
+
+For more information and usage examples, please refer to the [PacketParser documentation](https://github.com/vysec/PacketParser).
+
