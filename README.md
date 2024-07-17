@@ -26,5 +26,5 @@ To use PacketParser, follow these steps:
     python3 packetparser.py -i it-office.pcap -o unique.txt -oP unique-ports.txt -oI unique-ips.txt -s
     ```
 
-For more information and usage examples, please refer to the [PacketParser documentation](https://github.com/vysec/PacketParser).
+For more information and usage examples, please refer to the [PacketParser documentation](https://github.com/vysecurity/PacketParser).
 
